@@ -1,5 +1,9 @@
 <?php
-class Student {
+
+class Human {
+
+}
+class Student extends Human {
 
     public function  __construct (
         public string $name,
