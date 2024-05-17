@@ -1,19 +1,8 @@
 <?php
+require_once __DIR__ . '/scripts/function.php';
+require_once __DIR__ . '/info.php';
 
-class Human {
 
-}
-class Student extends Human {
-
-    public function  __construct (
-        public string $name,
-        public int $groupId,
-        public string $type
-    )
-    {
-
-    }
-}
-
-$student = new Student ('Oleksii', 15, 'PHP');
-
+echo __FILE__ . ' - ' . __LINE__;
+echo "\n\n";
+echo 'work'. "\n";

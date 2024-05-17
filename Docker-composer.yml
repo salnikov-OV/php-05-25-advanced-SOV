@@ -1,8 +1,11 @@
-version: "3.8"
+
 networks:
   php_pro:
     driver: bridge
 
+volumes:
+  database_volume:
+    driver: local
 
 services:
   app:
